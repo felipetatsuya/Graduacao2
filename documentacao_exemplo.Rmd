@@ -14,5 +14,7 @@ Pacotes utilizados:
 library(tibble) # data_frame
 library(dplyr)
 library(Zelig)
+
 ```
 
+teste na sw

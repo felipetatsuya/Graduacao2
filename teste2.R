@@ -17,7 +17,7 @@ n               <- 750
 prop_ones       <- .03
 
 beta_1 <- sqrt(signal_to_noise)
-
+#
 dat <- data_frame(x1 = rnorm(n),
                   intercept = qnorm(prop_ones, sd = sqrt(beta_1 ^ 2 + 1)),
                   y_signal = beta_1 * x1,
@@ -142,7 +142,7 @@ glm(y ~ x1, data = train, family = "binomial") %>%
 
 
 
-
+#################   TESTE NA SW   #################
 
 
 
