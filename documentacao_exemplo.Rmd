@@ -1,0 +1,18 @@
+---
+title: "Documentação - Estimadores KZ"
+author: "Felipe Tatsuya Tsukada"
+date: "Novembro de 2019"
+output:
+  prettydoc::html_pretty:
+    theme: architect
+    highlight: github
+---
+
+Pacotes utilizados:
+
+```{r}
+library(tibble) # data_frame
+library(dplyr)
+library(Zelig)
+```
+
