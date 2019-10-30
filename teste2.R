@@ -57,6 +57,10 @@ coefs <- fit %>%
 V <- vcov(fit)
 
 
+# MATRIZ DE INFORMACAO DE FISHER
+V
+summary(fit)$cov.scaled
+
 ########################################
 ##########      PREDITOS      ##########
 ########################################
@@ -121,7 +125,7 @@ updated_var <- (nrow(X_train) / (nrow(X_train) + ncol(X_train) + 1)) ^ 2 * V
 ##########################################################
 ##########    COMPARANDO COM O PACOTE ZELIG     ##########
 ##########################################################
-
+install.packages("Zelig")
 library(Zelig)
 
 re_model <- zelig(y ~ x1, data = train, model = "relogit", cite = FALSE) 

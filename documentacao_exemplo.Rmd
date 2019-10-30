@@ -17,4 +17,4 @@ library(Zelig)
 
 ```
 
-teste na sw
+ESTUDAR CORRECAO A PRIORI E VER A DIFERENÇA COM ESTIMADOR KZ
